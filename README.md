@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎒 Balo Đồng Phục DAU - 3D Scroll Experience
 
-## Getting Started
+Trải nghiệm landing page cao cấp dành cho sản phẩm Balo đồng phục của **Đại học Kiến trúc Đà Nẵng (DAU)**. Trang web kết hợp kỹ thuật diễn hoạt chuỗi hình ảnh (image sequence) mượt mà dựa trên hành vi cuộn chuột của người dùng, tạo hiệu ứng xoay 3D chân thực.
 
-First, run the development server:
+## 🚀 Live Demo
+Xem bản demo trực tiếp tại đây: **[balo-dau-3d.vercel.app](https://balo-dau-3d.vercel.app/)**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🖼️ Demo Image
+![Balo DAU 3D Demo](./public/demo.png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Tính năng nổi bật
+- **3D Scroll Animation**: Xoay balo 360 độ khi cuộn trang bằng HTML5 Canvas.
+- **Storytelling Overlays**: Các thông điệp về thiết kế và tính năng xuất hiện linh hoạt theo tiến trình cuộn.
+- **High Performance**: Tối ưu hóa việc tải trước (preload) 176 khung ảnh để đảm bảo trải nghiệm không bị giật lag.
+- **Premium Design**: Giao diện tối giản, sang trọng với tông màu chủ đạo trắng và đỏ DAU (#A31D2A).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Công cụ phát triển
+Dự án này được xây dựng và tối ưu hóa bởi sự kết hợp của bộ công cụ mạnh mẽ từ **Google**:
+- **Antigravity**: Hệ thống AI hỗ trợ lập trình thông minh.
+- **Whisk**: Công cụ tăng tốc quy trình phát triển.
+- **Flow**: Bộ công cụ giúp quản lý và triển khai luồng công việc mượt mà.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 💻 Cài đặt và Chạy thử
+1. Clone dự án:
+   ```bash
+   git clone https://github.com/nguyenvanduydev001/balo_dau_3d.git
+   ```
+2. Cài đặt dependency:
+   ```bash
+   npm install
+   ```
+3. Chạy môi trường phát triển:
+   ```bash
+   npm run dev
+   ```
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+*Dự án lấy cảm hứng từ niềm tự hào sinh viên Kiến trúc Đà Nẵng.*
